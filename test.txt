@@ -1,0 +1,23 @@
+fetch("https://api.luma.com/event/register", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en",
+    "content-type": "application/json",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-luma-client-type": "luma-web",
+    "x-luma-client-version": "2026-09-10T04:36:26Z|b1e83e3d8e2e",
+    "x-luma-timezone": "Asia/Kolkata",
+    "x-luma-web-url": "https://luma.com/3u22sml7"
+  },
+  "referrer": "https://luma.com/",
+  "body": "{\"name\":\"John Doe\",\"first_name\":\"\",\"last_name\":\"\",\"email\":\"lolnicetryezjohn0@gmail.com\",\"event_api_id\":\"evt-BRY5KUn2LY8kScI\",\"for_waitlist\":false,\"payment_method\":null,\"payment_currency\":null,\"registration_answers\":[{\"label\":\"What is your LinkedIn profile?\",\"question_id\":\"50n83n2d\",\"value\":\"https://www.linkedin.com/in/example0\",\"question_type\":\"linkedin\"}],\"coupon_code\":null,\"token_gate_info\":null,\"eth_address_info\":null,\"phone_number\":\"+919000000000\",\"solana_address_info\":null,\"expected_amount_cents\":0,\"expected_amount_tax\":0,\"currency\":null,\"event_invite_api_id\":null,\"ticket_type_to_selection\":{\"evtticktyp-qrzW9HwxQDYtSw5\":{\"count\":1,\"amount\":0}},\"solana_address\":null,\"solana_wallet_type\":null,\"opened_from\":null}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
